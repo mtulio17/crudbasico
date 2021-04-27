@@ -29,6 +29,12 @@
       "precioProducto": 35,
       "categoria": "dulce",
       "id": 5
+    },
+    {
+      "nombreProducto": "licuado durazno",
+      "precioProducto": 150,
+      "categoria": "bebidaFria",
+      "id": 6
     }
   ]
 }

@@ -47,7 +47,7 @@ consultarAPI();
           <ListarProductos productos={productos}/>
         </Route>
         <Route exact path='/productos/nuevo'>
-          <AgregarProductos/>
+          <AgregarProductos consultarAPI={consultarAPI}/>
         </Route>
       </Switch>
       <Footer/>
