@@ -9,9 +9,7 @@ const ListarProductos = (props) => {
             <ListGroup className='my-5'>
                 {
                     props.productos.map((producto)=><ItemProducto producto={producto} key={producto.id}/>)
-                }
-                
-                               
+                }           
             </ListGroup>
         </Container>
     );
