@@ -44,7 +44,7 @@ consultarAPI();
           <Inicio/>
         </Route>
         <Route exact path='/productos'>
-          <ListarProductos productos={productos}/>
+          <ListarProductos productos={productos} consultarAPI={consultarAPI}/>
         </Route>
         <Route exact path='/productos/nuevo'>
           <AgregarProductos consultarAPI={consultarAPI}/>
