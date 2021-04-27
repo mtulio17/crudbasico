@@ -32,3 +32,6 @@ function App() {
 }
 
 export default App;
+// Agregar produco editar maquetado igual al de agregar producto.
+// pegar el footer abajo y poner en paginas
+// cortas

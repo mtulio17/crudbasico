@@ -1,0 +1,34 @@
+{
+  "cafeteria": [
+    {
+      "nombreProducto": "café",
+      "PrecioProducto": 50,
+      "categoria": "bebidaCaliente",
+      "id": 1
+    },
+    {
+      "nombreProducto": "medialuna x unidad",
+      "PrecioProducto": 40,
+      "categoria": "dulce",
+      "id": 2
+    },
+    {
+      "nombreProducto": "te",
+      "precioProducto": 45,
+      "categoria": "bebidaCaliente",
+      "id": 3
+    },
+    {
+      "nombreProducto": "pan",
+      "precioProducto": 50,
+      "categoria": "salado",
+      "id": 4
+    },
+    {
+      "nombreProducto": "Alfajor",
+      "precioProducto": 35,
+      "categoria": "dulce",
+      "id": 5
+    }
+  ]
+}
