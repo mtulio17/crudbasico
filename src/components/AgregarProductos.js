@@ -12,7 +12,7 @@ const AgregarProductos = (props) => {
 
     const cambioCategoria = (e) => {
         setCategoria(e.target.value)
-    }
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -76,7 +76,7 @@ const AgregarProductos = (props) => {
 
         <Container>
             <Form className='my-5' onSubmit={handleSubmit}>
-                <h1 className='text-center my-5'>Agregar nuevo producto</h1>
+                <h1 className='text-center my-5'>Agregar producto</h1>
                 <Form.Group>
                     <Form.Label>Nombre del Producto*</Form.Label>
                     <Form.Control type='text' placeholder='Té' onChange={(e) => setNombreProducto(e.target.value)}></Form.Control>
