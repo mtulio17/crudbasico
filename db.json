@@ -23,6 +23,12 @@
       "precioProducto": 35,
       "categoria": "dulce",
       "id": 5
+    },
+    {
+      "nombreProducto": "jugo",
+      "precioProducto": 200,
+      "categoria": "bebidaFria",
+      "id": 6
     }
   ]
 }
