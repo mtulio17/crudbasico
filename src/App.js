@@ -51,8 +51,8 @@ consultarAPI();
         <Route exact path='/productos/nuevo'>
           <AgregarProductos consultarAPI={consultarAPI}/>
         </Route>
-        <Route exact path='/productos/editar'>
-          <EditarProducto/>
+        <Route exact path='/productos/editar/:id'>
+          <EditarProducto />
         </Route>
       </Switch>
       <Footer/>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {ListGroup, Button, Badge} from 'react-bootstrap';
 import Swal from 'sweetalert2';
+import {Link} from 'react-router-dom';
 
 const ItemProducto = (props) => {
     const eliminarPrducto = (id) => {
@@ -8,7 +9,7 @@ const ItemProducto = (props) => {
             title: '¿Esta seguro que desea eliminar el producto?',
             text: "No se podrá recuperar un producto eliminado",
             icon: 'warning',
-            showCancelButton: true,
+            showCancelButton: true, 
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
             confirmButtonText: 'Eliminar',
@@ -49,7 +50,8 @@ const ItemProducto = (props) => {
             <ListGroup.Item className='d-flex justify-content-between'>
                 <p>{props.producto.nombreProducto} <Badge variant="success">${props.producto.precioProducto}</Badge></p>
                 <div>
-                <Button variant='warning' className='mr-3' >Editar</Button>
+                
+                <Link className='btn btn-warning mr-3 text-light' to={`/productos/editar/${props.producto.id}`} >Editar</Link>
                 <Button variant='danger' onClick={()=> eliminarPrducto(props.producto.id)}>Borrar</Button>
                 </div>
             </ListGroup.Item>
