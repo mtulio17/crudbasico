@@ -5,9 +5,9 @@ import Swal from 'sweetalert2';
 
 const AgregarProductos = (props) => {
     const URL = process.env.REACT_APP_API_URL;
-    const [nombreProducto, setNombreProducto] = useState('');
+    const [nombreProducto, setNombreProducto] = useState("");
     const [precioProducto, setPrecioProducto] = useState(0);
-    const [categoria, setCategoria] = useState('');
+    const [categoria, setCategoria] = useState("");
     const [error, setError] = useState(false);
 
     const cambioCategoria = (e) => {
